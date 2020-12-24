@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>柴火拍照墙3.0 Alpha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="thumbnail-gallery.css">
+    <link rel="stylesheet" href="extend.css">
+</head>
+
+<body>
+
+    <div class="container gallery-container">
+
+        <h1>柴火拍照墙3.0 Alpha</h1>
+
+        <p class="page-description text-center">点击图片放大，长按图片保存</p>
+
+        <div class="tz-gallery">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a1">
+                            <img id="img1">
+                        </a>
+                        <div class="caption">
+                            <h3>编号1</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a2">
+                            <img id="img2">
+                        </a>
+                        <div class="caption">
+                            <h3>编号2</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a3">
+                            <img id="img3">
+                        </a>
+                        <div class="caption">
+                            <h3>编号3</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a4">
+                            <img id="img4">
+                        </a>
+                        <div class="caption">
+                            <h3>编号4</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a5">
+                            <img id="img5">
+                        </a>
+                        <div class="caption">
+                            <h3>编号5</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a6">
+                            <img id="img6">
+                        </a>
+                        <div class="caption">
+                            <h3>编号6</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a7">
+                            <img id="img7">
+                        </a>
+                        <div class="caption">
+                            <h3>编号7</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a8">
+                            <img id="img8">
+                        </a>
+                        <div class="caption">
+                            <h3>编号8</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <a class="lightbox" id="a9">
+                            <img id="img9">
+                        </a>
+                        <div class="caption">
+                            <h3>编号9</h3>
+                        </div>
+                    </div>
+                </div>
+                <p class="page-description text-center">V1~V2 @哪种酸奶好喝 </p>
+                <p class="page-description text-center">V3 @宇飞 更新</p>
+                <!-- <p class="page-description text-center">Powered by SeeedStudio</p> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script type="text/javascript">
+        baguetteBox.run('.tz-gallery');
+        //解决微信内置浏览器无法刷新的问题
+        document.getElementById('a1').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto1.png?" + Math.random();
+        document.getElementById('a2').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto2.png?" + Math.random();
+        document.getElementById('a3').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto3.png?" + Math.random();
+        document.getElementById('a4').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto4.png?" + Math.random();
+        document.getElementById('a5').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto5.png?" + Math.random();
+        document.getElementById('a6').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto6.png?" + Math.random();
+        document.getElementById('a7').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto7.png?" + Math.random();
+        document.getElementById('a8').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto8.png?" + Math.random();
+        document.getElementById('a9').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto9.png?" + Math.random();
+        document.getElementById('img1').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto1.png?" + Math.random();
+        document.getElementById('img2').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto2.png?" + Math .random();
+        document.getElementById('img3').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto3.png?" + Math.random();
+        document.getElementById('img4').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto4.png?" + Math.random();
+        document.getElementById('img5').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto5.png?" + Math.random();
+        document.getElementById('img6').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto6.png?" + Math.random();
+        document.getElementById('img7').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto7.png?" + Math.random();
+        document.getElementById('img8').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto8.png?" + Math.random();
+        document.getElementById('img9').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto9.png?" + Math.random();
+    </script>
+</body>
+
+</html>

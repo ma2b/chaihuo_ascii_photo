@@ -1,0 +1,166 @@
+body {
+	padding: 50px;
+	/* background: white;
+	color: black; */
+	background: black;
+	color: white;
+	/* background: #F83A47;
+		color: #FDDF02; */
+	/* transform: scale(0.9); */
+}
+
+h1 {
+	font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	color: #999;
+	text-align: center;
+}
+
+.imgBox img {
+	width: 100%;
+}
+
+#notSupported {
+	display: none;
+}
+
+#notSupported h1 {
+	color: #b41a1a;
+	margin-bottom: 20px;
+}
+
+#notSupported img {
+	display: block;
+	margin: 0 auto;
+	display: flex;
+	
+}
+
+#aMain {
+	background: black;
+	/* width: 38%; */
+	margin: 0 auto;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+#ascii {
+	background: black;
+	font-family: 'Courier New', 'Courier', monospace;
+	/* font-weight:bold; */
+	font-size: 10px;
+	line-height: 10px;
+	/* #调试点2 */
+	letter-spacing: -1.5px;
+	/* letter-spacing: -0.5px; */
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.canvas_photo {
+	background: black;
+	margin: 0 auto;
+}
+
+
+#button {
+	border-color: white;
+	background: black;
+	color: white;
+	display: none;
+	margin: 20px auto;
+	padding: 10px 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+#putBtn {
+	border-color: white;
+	background: black;
+	color: white;
+	display: none;
+	margin: 20px auto;
+	padding: 10px 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+#timerBtn {
+	border-color: white;
+	background: black;
+	color: white;
+	display: none;
+	margin: 20px auto;
+	padding: 10px 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+#Time,
+#p {
+	margin: 20px auto;
+	padding: 10px 20px;
+	display: inline;
+	font-size: 18px;
+	text-align: center;
+}
+
+.slider {
+	padding: 5px 0;
+	position: relative;
+	margin: 30px 10%;
+	--percent: 0;
+}
+
+.slider-track {
+	display: block;
+	width: 100%;
+	height: 6px;
+	background-color: lightgray;
+	border: 0;
+	padding: 0;
+}
+
+.slider-track::before {
+	content: '';
+	display: block;
+	height: 100%;
+	background-color: skyblue;
+	width: calc(1% * var(--percent));
+}
+
+.slider-thumb {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border: 0;
+	padding: 0;
+	background: #fff;
+	box-shadow: 0 0 0 1px skyblue;
+	border-radius: 50%;
+	left: calc(1% * var(--percent));
+	top: 0;
+	margin: auto -8px;
+}
+
+.input {
+ width:"400px"
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+#qrcode {
+	display: block;
+	position: fixed;
+	z-index: 10;
+	width: 100px;
+	height: 100px;
+	top: 30px;
+	right: 30px;
+	/* padding: 10px 50px 10px 10px; */
+
+}

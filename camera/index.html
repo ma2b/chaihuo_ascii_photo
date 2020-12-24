@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>ascii camera</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/main.css" />
+	<meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+	<h1 id="info">Please allow this page to access your camera.</h1>
+
+	<div id="notSupported">
+		<h1>Your browser does not support the Camera API.</h1>
+	</div>
+	
+	<img id="qrcode" src="images/qrcode.jpg" alt="">
+	<div id="aMain">
+	<pre id="ascii"></pre>
+	</div>
+	<div>
+		<button id="button">启动软件</button>
+		<button id="putBtn">上传</button>
+		<button id="timerBtn">倒计时拍照</button>
+		<p id="Time"></p>
+	</div>
+	<div>
+	<div id="rVal">R:</div><input id="red" type="range" min="0" max="1.0" step="0.01"  />
+	<div id="gVal">G:</div><input id="green" type="range" min="0" max="1.0" step="0.01"  />
+	<div id="bVal">B:</div><input id="blue" type="range" min="0" max="1.0" step="0.01"  />
+	</div>
+
+	<script src="script/aliyun-oss-sdk-4.4.4.min.js"></script>
+	<script src="script/camera.js"></script>
+	<script src="script/ascii.js"></script>
+	<script src="script/app.js"></script>
+	<script src="script/html2canvas.js"></script>
+</body>
+
+</html>
