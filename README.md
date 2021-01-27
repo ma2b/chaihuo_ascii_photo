@@ -23,7 +23,7 @@ ASCII码照相机，将实时图像转成ASCII字符。
 
 ## 配置指南
 ### 1）下载链接
-[chaihuo_ascil_photo_v0.1](https://github.com/ma2b/chaihuo_ascil_photo)
+[chaihuo_ascil_photo_v0.1](https://github.com/ma2b/chaihuo_ascil_photo/archive/main.zip)
 ### 2）阿里云配置
 我们需要来自阿里云的4样东西
 ```
