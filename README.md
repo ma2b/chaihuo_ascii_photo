@@ -1,5 +1,5 @@
 Chaihuo ASCII PHOTO
-============
+============    
 ## 简介
 
 ASCII码照相机，将实时图像转成ASCII字符。照片可上传至云端，通过微信公众号下载照片。
@@ -58,7 +58,7 @@ Arduino补光灯（可选）：发现灯光变化对效果影响很大，所以�
 
 ### 1）下载链接
 
-[chaihuo_ascil_photo_v0.1](https://github.com/ma2b/chaihuo_ascil_photo/archive/main.zip)
+[chaihuo_ascil_photo_v0.2](https://github.com/ma2b/chaihuo_ascii_photo/archive/main.zip)
 
 #todo 更新0.2的修改地址
 
