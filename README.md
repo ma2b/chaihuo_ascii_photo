@@ -1,4 +1,4 @@
-Chaihuo ASCIL PHOTO
+Chaihuo ASCII PHOTO
 ============
 ## 简介
 ASCII码照相机，将实时图像转成ASCII字符。
