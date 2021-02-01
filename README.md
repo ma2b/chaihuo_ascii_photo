@@ -60,8 +60,6 @@ Arduino补光灯（可选）：发现灯光变化对效果影响很大，所以�
 
 [chaihuo_ascil_photo_v0.2](https://github.com/ma2b/chaihuo_ascii_photo/archive/main.zip)
 
-#todo 更新0.2的修改地址
-
 ### 2）阿里云配置
 
 我们需要来自阿里云的4样东西
