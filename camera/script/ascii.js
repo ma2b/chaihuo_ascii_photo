@@ -6,8 +6,8 @@ var ascii = (function() {
 		// Heavily modified by Andrei Gheorghe (http://github.com/idevelop)
 
 		/**
-		 * 如果是浅色背景，从小到大
-		 * 如果是深色背景，从大到小
+		 * 如果是浅色背景，深色字体，从小到大
+		 * 如果是深色背景，浅色字体，从大到小
 		 */
 		// var characters = (".,:;i1tfLCG08@").split("");
 		// var characters = ("@80GCLft1;:,.").split("");

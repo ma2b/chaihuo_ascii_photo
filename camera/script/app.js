@@ -12,18 +12,18 @@
 		var asciiContainer = document.getElementById("ascii");
 		var capturing = false;
 		client = new OSS.Wrapper({
-			region: '',
-			accessKeyId: '',
-			accessKeySecret: '',
-			bucket: ''
+			region: 'yourRegion',
+			accessKeyId: 'yourAccessKeyId',
+			accessKeySecret: 'yourAccessKeySecret',
+			bucket: 'yourBucket'
 		});
 		//#调试点1
 		camera.init({
-			height: 150,
-			width: 200,
-			fps: 10,
-			mirror: true,
-			// mirror: false,
+			height: 150,  //高
+			width: 200,	  //宽
+			fps: 10, 	  //每秒帧数
+			mirror: true, //镜像显示
+
 
 			onFrame: function (canvas) {
 				ascii.fromCanvas(canvas, {

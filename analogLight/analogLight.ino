@@ -1,17 +1,16 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// Released under the GPLv3 license to match the rest of the
-// Adafruit NeoPixel library
-
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
 #endif
 
-// Which pin on the Arduino is connected to the NeoPixels?
-#define PIN        2 // On Trinket or Gemma, suggest changing this to 1
+// 灯带引脚
+#define PIN        2 // 灯带接口为D2
 
-// How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS 30 // Popular NeoPixel ring size
+// 旋钮引脚
+#define rotaryPin A3 // 旋钮接口为A3
+
+// 灯带灯珠数量
+#define NUMPIXELS 30 //灯带数量为30
 
 // When setting up the NeoPixel library, we tell it how many pixels,
 // and which pin to use to send signals. Note that for older NeoPixel
@@ -42,7 +41,7 @@ void loop() {
 
     // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
     // Here we're using a moderately bright green color:
-    int value = analogRead(A3)/4;
+    int value = analogRead(rotaryPin)/4;
     Serial.println(value);
     pixels.setPixelColor(i, pixels.Color(value, value, value));
 

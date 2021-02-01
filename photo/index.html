@@ -9,7 +9,7 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>柴火拍照墙3.0 Alpha</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="thumbnail-gallery.css">
     <link rel="stylesheet" href="extend.css">
@@ -129,25 +129,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script type="text/javascript">
         baguetteBox.run('.tz-gallery');
-        //解决微信内置浏览器无法刷新的问题
-        document.getElementById('a1').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto1.png?" + Math.random();
-        document.getElementById('a2').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto2.png?" + Math.random();
-        document.getElementById('a3').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto3.png?" + Math.random();
-        document.getElementById('a4').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto4.png?" + Math.random();
-        document.getElementById('a5').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto5.png?" + Math.random();
-        document.getElementById('a6').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto6.png?" + Math.random();
-        document.getElementById('a7').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto7.png?" + Math.random();
-        document.getElementById('a8').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto8.png?" + Math.random();
-        document.getElementById('a9').href = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto9.png?" + Math.random();
-        document.getElementById('img1').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto1.png?" + Math.random();
-        document.getElementById('img2').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto2.png?" + Math .random();
-        document.getElementById('img3').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto3.png?" + Math.random();
-        document.getElementById('img4').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto4.png?" + Math.random();
-        document.getElementById('img5').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto5.png?" + Math.random();
-        document.getElementById('img6').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto6.png?" + Math.random();
-        document.getElementById('img7').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto7.png?" + Math.random();
-        document.getElementById('img8').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto8.png?" + Math.random();
-        document.getElementById('img9').src = "https://chimg.oss-cn-shenzhen.aliyuncs.com/lastphoto9.png?" + Math.random();
+
+        let bucket_url = "https://chimg.oss-cn-shenzhen.aliyuncs.com"
+
+        //Math.random();是为了解决微信内置浏览器无法刷新的问题
+        document.getElementById('a1').href = bucket_url + "/lastphoto1.png?" + Math.random();
+        document.getElementById('a2').href = bucket_url + "/lastphoto2.png?" + Math.random();
+        document.getElementById('a3').href = bucket_url + "/lastphoto3.png?" + Math.random();
+        document.getElementById('a4').href = bucket_url + "/lastphoto4.png?" + Math.random();
+        document.getElementById('a5').href = bucket_url + "/lastphoto5.png?" + Math.random();
+        document.getElementById('a6').href = bucket_url + "/lastphoto6.png?" + Math.random();
+        document.getElementById('a7').href = bucket_url + "/lastphoto7.png?" + Math.random();
+        document.getElementById('a8').href = bucket_url + "/lastphoto8.png?" + Math.random();
+        document.getElementById('a9').href = bucket_url + "/lastphoto9.png?" + Math.random();
+        document.getElementById('img1').src = bucket_url + "/lastphoto1.png?" + Math.random();
+        document.getElementById('img2').src = bucket_url + "/lastphoto2.png?" + Math .random();
+        document.getElementById('img3').src = bucket_url + "/lastphoto3.png?" + Math.random();
+        document.getElementById('img4').src = bucket_url + "/lastphoto4.png?" + Math.random();
+        document.getElementById('img5').src = bucket_url + "/lastphoto5.png?" + Math.random();
+        document.getElementById('img6').src = bucket_url + "/lastphoto6.png?" + Math.random();
+        document.getElementById('img7').src = bucket_url + "/lastphoto7.png?" + Math.random();
+        document.getElementById('img8').src = bucket_url + "/lastphoto8.png?" + Math.random();
+        document.getElementById('img9').src = bucket_url + "/lastphoto9.png?" + Math.random();
     </script>
 </body>
 

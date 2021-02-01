@@ -1,12 +1,7 @@
 body {
 	padding: 50px;
-	/* background: white;
-	color: black; */
 	background: black;
 	color: white;
-	/* background: #F83A47;
-		color: #FDDF02; */
-	/* transform: scale(0.9); */
 }
 
 h1 {
@@ -38,7 +33,7 @@ h1 {
 }
 
 #aMain {
-	background: black;
+	/* background: black; */
 	/* width: 38%; */
 	margin: 0 auto;
 	/* display: flex; */
@@ -46,17 +41,21 @@ h1 {
 }
 
 #ascii {
-	background: black;
 	font-family: 'Courier New', 'Courier', monospace;
 	/* font-weight:bold; */
 	font-size: 10px;
 	line-height: 10px;
+
 	/* #调试点2 */
 	letter-spacing: -1.5px;
 	/* letter-spacing: -0.5px; */
-	text-align: center;
-	margin: 0 auto;
+
+	/* #调试点3 */
+	background: black;
+	color: white;
 	
+	text-align: center;
+	margin: 0 auto;	
 }
 
 .canvas_photo {
